@@ -20,11 +20,11 @@ h1,h2{
 }
 span{
   color: crimson;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: capitalize;
 }
 h2{
-  font-size: 30px;
+  font-size: 20px;
   line-height: 35px;
   margin: 20px 0;
 }
@@ -35,7 +35,7 @@ h2{
   grid-gap: 30px;
 }
 .top{
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 /* ------------------left content---------------- */
@@ -81,8 +81,8 @@ overflow: hidden;
  margin-top: 2%; 
 }
 .left-content .text h1{
-  font-size: 48px;
-  line-height: 50px;
+  font-size: 35px;
+  line-height: 40px;
 
 }
 .left-content .text p{
@@ -93,3 +93,16 @@ overflow: hidden;
   float: right;
   text-align: right;
 }
+ .left-content .qrCode img{
+  margin-top: 35%;
+ }
+
+ /* -----------right container----------- */
+
+ .right-content{
+  padding: 40px;
+  color: black;
+  position: absolute;
+  right: 0;
+  /* overflow-x: hidden; */
+ }

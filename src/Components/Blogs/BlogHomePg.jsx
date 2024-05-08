@@ -1,4 +1,7 @@
 import React from 'react'
+import Slide from '../Slider/Slide'
+import Card from './Card'
+
 
 const BlogHomePg = () => {
 
@@ -49,7 +52,10 @@ const BlogHomePg = () => {
           })
         }
         </div>
-        <div className="right-content"></div>
+        <div className="right-content">
+          <Slide/>
+          <Card/>
+        </div>
       </section>
     </>
   )
