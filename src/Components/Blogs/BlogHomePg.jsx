@@ -1,6 +1,8 @@
 import React from 'react'
 import Slide from '../Slider/Slide'
 import Card from './Card'
+import Footer from '../Footer/Footer'
+import CardTwo from './CardTwo'
 
 
 const BlogHomePg = () => {
@@ -15,7 +17,7 @@ const BlogHomePg = () => {
             name:"Jason Smith",
             subTitle:"How to Invest MindFully",
             qrCode:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtXjM6pC-IwNCHg3H8IoonZRLsYyrJ56qdhclZeHttzw&s",
-            cover:"https://wallpapercave.com/wp/wp12449500.jpg"
+            cover:"https://variety.com/wp-content/uploads/2022/09/Elizabeth-Olsen-Variety-Power-of-Women-16x9-2.jpg"
 
         }
     ]
@@ -55,6 +57,8 @@ const BlogHomePg = () => {
         <div className="right-content">
           <Slide/>
           <Card/>
+          <CardTwo/>
+          <Footer/>
         </div>
       </section>
     </>

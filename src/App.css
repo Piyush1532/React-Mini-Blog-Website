@@ -22,9 +22,10 @@ span{
   color: crimson;
   font-weight: 300;
   text-transform: capitalize;
+  font-size: 16px;
 }
 h2{
-  font-size: 20px;
+  font-size: 24px;
   line-height: 35px;
   margin: 20px 0;
 }
@@ -35,7 +36,7 @@ h2{
   grid-gap: 30px;
 }
 .top{
-  margin-top: 70px;
+  margin-top: 95px;
 }
 
 /* ------------------left content---------------- */
@@ -78,24 +79,29 @@ overflow: hidden;
 }
 .left-content .text{
  width: 45%;
- margin-top: 2%; 
+ margin-top: 15%; 
 }
 .left-content .text h1{
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 54px;
+  line-height: 56px;
 
 }
 .left-content .text p{
-  margin: 20px 0 5px 0;
+  margin: 12px 0 5px 0;
+  font-size: 18px;
 }
 
 .left-content .text2{
   float: right;
   text-align: right;
 }
- .left-content .qrCode img{
-  margin-top: 35%;
+ .left-content .qrcode img{
+  margin-top: 22%;
+  width: 100px;
+  height:100px;
+
  }
+
 
  /* -----------right container----------- */
 
@@ -104,5 +110,33 @@ overflow: hidden;
   color: black;
   position: absolute;
   right: 0;
-  /* overflow-x: hidden; */
+ 
+ }
+
+ .img{
+  overflow: hidden;
+  transition: 0.5s;
+ }
+ .img img{
+
+  transition: 0.5s;
+ }
+
+ .img img:hover{
+  transform: scale(1.1);
+ }
+
+
+ @media only screen and (max-width:768px){
+  .home{
+    flex-direction: column;
+  }
+
+  .left-content,.right-content{
+    width: 100%;
+    position: relative;
+  }
+
+
+
  }
